@@ -8,11 +8,15 @@ public class Numbers {
         this.num1 = num1;
         this.num2 = num2;
         this.num3 = num3;
+       // int [] x;
+       // x = new int[]{Integer.parseInt(num1), Integer.parseInt(num2), Integer.parseInt(num3)};
+
     }
 
     @Override
     public String toString(){
         return num1+" "+num2+" "+num3;
+
     }
 
 
